@@ -15,9 +15,9 @@ pip install -r .\requirements.txt
 ---
 
 python
->>>import os
->>>import binascii
->>>binascii.hexlify(os.urandom(24))
+import os
+import binascii
+binascii.hexlify(os.urandom(24))
 
 ---
 
